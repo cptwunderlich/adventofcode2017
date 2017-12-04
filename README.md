@@ -35,6 +35,7 @@ You might consider it cheating, but meh.
 For this one I broke out Java 8/9. I'm mostly stuck with 7 at work, so I didn't have a
 chance yet to play with streams. This one seemed fairly easy, easier than days 1 and 2
 and I solved it rather quickly. I'm also fairly pleased with how it looks.
+
 I did incorporate one piece of feedback that I got from reddit after posting my solution
 there. Namely using `.map(s -> s.split(" "))`, where I wasn't sure how to get rid of
 two "manual" splits in filter.
