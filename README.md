@@ -39,3 +39,12 @@ and I solved it rather quickly. I'm also fairly pleased with how it looks.
 I did incorporate one piece of feedback that I got from reddit after posting my solution
 there. Namely using `.map(s -> s.split(" "))`, where I wasn't sure how to get rid of
 two "manual" splits in filter.
+
+## Day 5
+
+The task is to follow the 'jump' instructions until you exit the array bounds.
+I used C++ and at first I made a simple iterative approach and solved the puzzle.
+Then I wanted to make it "prettier". To me it seems, like this is a problem more
+suited for an iterative approach as opposed to a functional one. The solutions in
+functional languages on Reddit also don't seem as succinct and elegant as usually.
+
