@@ -102,3 +102,8 @@ ENV/
 
 # Java
 *.class
+*.jar
+
+# Vim
+*swp
+
