@@ -48,3 +48,10 @@ Then I wanted to make it "prettier". To me it seems, like this is a problem more
 suited for an iterative approach as opposed to a functional one. The solutions in
 functional languages on Reddit also don't seem as succinct and elegant as usually.
 
+## Day 6
+
+I was busy all day, so I solved this one on the evening of Day 7.
+While I used Kotlin for the solution, this program is absolutely ugly.
+I just wanted to get it done. It's not idiomatic, it's a complete hack.
+But it did the job.
+
