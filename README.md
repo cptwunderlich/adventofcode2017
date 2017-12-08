@@ -62,3 +62,11 @@ I didn't use any fancy <algorithms> or anything. I thought using an
 adjecency matrix would make checking for the root really easy
 (no connections leading to the root), but it did make the construction
 more complicated.
+I hate to say it, but I really had my difficulties with this one.
+
+## Day 8
+Executing some simple conditional instructions on registers.
+This one was super easy. I used python3 again, so I'd have an easy time
+parsing the input.
+I basically just rearranged the parts of the string and added a defaultdict
+on top, so I could just "eval" (exec) the strings.
