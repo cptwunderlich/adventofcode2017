@@ -55,3 +55,10 @@ While I used Kotlin for the solution, this program is absolutely ugly.
 I just wanted to get it done. It's not idiomatic, it's a complete hack.
 But it did the job.
 
+## Day 7
+
+Went again for C++, thinking I could do it in a very fast way. In the end,
+I didn't use any fancy <algorithms> or anything. I thought using an
+adjecency matrix would make checking for the root really easy
+(no connections leading to the root), but it did make the construction
+more complicated.
