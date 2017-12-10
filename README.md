@@ -65,8 +65,22 @@ more complicated.
 I hate to say it, but I really had my difficulties with this one.
 
 ## Day 8
+
 Executing some simple conditional instructions on registers.
 This one was super easy. I used python3 again, so I'd have an easy time
 parsing the input.
 I basically just rearranged the parts of the string and added a defaultdict
 on top, so I could just "eval" (exec) the strings.
+
+## Day 9
+
+Parsing of nested braces with ignores, negation etc.
+Another simple, nice one. Used Python again.
+For part 1 I had a nice structure, where I put handlers into a dict, using a
+NOP-lambda as default for get. So basically a "one function per symbol" approach.
+I did have some duplication with regards to negation and ignores in the functions
+though, but the main loop was as simple as possible.
+I had to change that somewhat for part 2, where the ignored characters had to be
+counted. So in this version, there is an if-block with three "modes" and the
+final one uses the simplified "method in a dictionary per symbol" approach from
+before.
