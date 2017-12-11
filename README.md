@@ -84,3 +84,18 @@ I had to change that somewhat for part 2, where the ignored characters had to be
 counted. So in this version, there is an if-block with three "modes" and the
 final one uses the simplified "method in a dictionary per symbol" approach from
 before.
+
+## Day 10
+
+Calculate an esoteric hash function.
+The first part involves reversing substrings of the endless cycle of the input.
+It did sound like a perfect fit for itertools.cycle and co. In the end, it didn't
+turn out to be as straight forward as I had hoped. So I did end up throwing some
+raw loops and modulo arithmetic on the problem.
+For the second part, I lost half an hour, because I only had time to solve this
+at night and I was too tired, not noticing that I used the wrong array for part 2.
+That's also why you shouldn't use names like "ns" and "ns2", gah.
+When I solved the puzzle, my solution was extremely slow. I used to get current
+islice by just alway iterating from the beginning (i to i+n). I knew this wasn't
+optimal, but for part 1 it didn't make a difference. But I added an "optimization"
+after the fact.
