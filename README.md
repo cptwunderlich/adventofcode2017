@@ -99,3 +99,9 @@ When I solved the puzzle, my solution was extremely slow. I used to get current
 islice by just alway iterating from the beginning (i to i+n). I knew this wasn't
 optimal, but for part 1 it didn't make a difference. But I added an "optimization"
 after the fact.
+
+## Day 12
+
+I fell a bit off the wagon here. Too much going on right now.
+But this one seemed easy and so it was. Some basic graph problem, i.e., finding
+connected components.
